@@ -1,0 +1,28 @@
+.form__section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form__section--button {
+	margin: 20px;
+	background-color: teal;
+	color: white;
+	border: none;
+	padding: 10px;
+}
+
+.form__header {
+	margin: 0px;
+	padding: 15px;
+}
+
+.form__section--input {
+	flex-grow: 1;
+	margin: 20px;
+	padding: 10px;
+}
+
+.form__hr {
+	border: 1px solid #eee;
+	margin: 0px;
+}
