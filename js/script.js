@@ -1,27 +1,17 @@
 {
     const tasks = [
-        {
-            content: "zrobić zakupy",
-            done: false,
-        },
-        {
-            content: "wynieść śmieci",
-            done: true,
-        },
     ];
 
     const addNewTask = (newTaskContent) => {
-
         tasks.push({
             content: newTaskContent,
         });
-
         render();
     }
 
     const removeTask = (taskIndex) => {
         tasks.splice(taskIndex, 1);
-                render();
+        render();
     }
 
     const toggleTaskDone = (taskIndex) => {
@@ -46,7 +36,7 @@
             });
         });
     }
-    
+
     const render = () => {
         let htmlString = "";
 
@@ -67,20 +57,18 @@
         bindEvents();
     };
 
-    
-
     const onFormSubmit = (event) => {
-            event.preventDefault();
+        event.preventDefault();
 
-            const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
-            if (newTaskContent === "") {
-                return;
-            }
-
-            addNewTask(newTaskContent);
-
+        if (newTaskContent === "") {
+            return;
         }
+
+        addNewTask(newTaskContent);
+
+    }
 
     const init = () => {
         render();
