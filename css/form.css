@@ -12,6 +12,7 @@
 }
 
 .form__header {
+    border-bottom: 1px solid #eee;
 	margin: 0px;
 	padding: 15px;
 }
@@ -25,4 +26,14 @@
 .form__hr {
 	border: 1px solid #eee;
 	margin: 0px;
+}
+
+.form__tasks {
+    padding: 0px;
+}
+
+@media (max-width: 767px) {
+    .form__section--button {
+        width: 100%;
+    }
 }

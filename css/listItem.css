@@ -1,0 +1,21 @@
+
+.listItem {
+    display: grid;
+    grid-template-columns: 40px minmax(100px, 1fr) 40px;
+    grid-gap: 10px;
+    align-items: center;
+    border-bottom: #ebebeb solid 2px;
+    padding: 15px;
+}
+
+.listItem__button--remove {
+	color: white;
+	background-color: red;
+	border: none;
+}
+
+.listItem__button--done {
+	color: white;
+	background-color: green;
+	border: none;
+}
