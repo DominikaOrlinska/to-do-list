@@ -9,12 +9,14 @@
 }
 
 .listItem__button--remove {
+    height: 30px;
 	color: white;
 	background-color: red;
 	border: none;
 }
 
 .listItem__button--done {
+    height: 30px;
 	color: white;
 	background-color: green;
 	border: none;
