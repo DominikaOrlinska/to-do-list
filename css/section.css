@@ -1,0 +1,10 @@
+.section__header {
+    border-bottom: 1px solid #eee;
+	margin: 0px;
+	padding: 15px;
+}
+
+.section__hr {
+	border: 0.5px solid #eee;
+	margin: 0px;
+}

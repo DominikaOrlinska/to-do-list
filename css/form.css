@@ -1,9 +1,9 @@
-.form__section {
+.form {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.form__section--button {
+.form__button {
 	justify-content: center;
 	align-content: center;
 	margin: 20px;
@@ -13,21 +13,10 @@
 	padding: 10px;
 }
 
-.form__header {
-    border-bottom: 1px solid #eee;
-	margin: 0px;
-	padding: 15px;
-}
-
-.form__section--input {
+.form__input {
 	flex-grow: 1;
 	margin: 20px;
 	padding: 10px;
-}
-
-.form__hr {
-	border: 1px solid #eee;
-	margin: 0px;
 }
 
 .form__tasks {
@@ -44,11 +33,11 @@
 		margin: 25px 5px 20px 5px;
 	}
 
-    .form__section--button {
+    .form__button {
         width: 100%;
     }
 
-	.form__section--input {
+	.form__input {
 		width: 100%;
 	}
 }
